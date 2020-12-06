@@ -1,0 +1,13 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS Store
+
+# VS Code
+.vs
+.vscode
+
+# Webstorm
+.idea
