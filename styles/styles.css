@@ -38,6 +38,9 @@ th:first-child {
 }
 
 .hero-image {
+    margin-left: -5%;
+    margin-right: -5%;
+    width: 110%;
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +75,7 @@ th:first-child {
 }
 
 #name {
-    text-align: center;
+    margin-left: 40px;
 }
 
 #myself {
