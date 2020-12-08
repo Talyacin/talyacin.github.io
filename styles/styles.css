@@ -4,6 +4,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+body, html {
+    height: 100%;
+}
+
 header {
     margin: 10 10 10 10;
 }
@@ -18,12 +22,34 @@ th, td {
     padding: 5px;
 }
 
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url("images/hero-image.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
 .personal-info {
     margin: 5 0 0 10;
 }
 
 .favorite-novels {
     margin: 5 0 0 10;
+}
+
+.my-essay {
+    width: 50%;
 }
 
 #name {
