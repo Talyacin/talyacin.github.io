@@ -1,11 +1,37 @@
 body {
-    margin-left: 20;
-    margin-right: 20;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: 'Times New Roman', Times, serif;
 }
 
 header {
-    align-content: left;
+    margin: 10 10 10 10;
+}
+
+table {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.personal-info {
+    margin: 5 0 0 10;
+}
+
+.favorite-novels {
+    margin: 5 0 0 10;
+}
+
+#name {
+    text-align: center;
+}
+
+#myself {
+    justify-content: left;
 }
 
 #strong {
@@ -14,4 +40,9 @@ header {
 
 #bent {
     font-style: italic;
+}
+
+#the-haiku {
+    font-style: italic;
+    margin-left: 30px;
 }
