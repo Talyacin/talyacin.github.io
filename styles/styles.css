@@ -16,21 +16,30 @@ header {
 table {
     border: 1px solid black;
     padding: 1px;
+    background-color: linen;
 }
 
 th, td {
     border: 1px solid black;
     padding: 5px;
-    background-color: linen;
+}
+
+td {
+    text-align: center;
+    vertical-align: top;
+    background-color: lightcyan;
+}
+
+tr:nth-child(odd) {
+    background-color: lightslategray;
+}
+
+tr:nth-child(even) {
+    background-color: lightsteelblue;
 }
 
 th {
     background-color: darkgrey;
-}
-
-td:first-child {
-    background-color: darkgrey;
-    text-align: center;
 }
 
 th:first-child {
@@ -94,4 +103,24 @@ th:first-child {
 #the-haiku {
     font-style: italic;
     margin-left: 30px;
+}
+
+#art {
+    background-color: lightcoral;
+}
+
+#network {
+    background-color: lightseagreen;
+}
+
+#therapy {
+    background-color: lightskyblue;
+}
+
+#theory {
+    background-color: lightgoldenrodyellow;
+}
+
+#programming {
+    background-color: lightgreen;
 }
