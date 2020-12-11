@@ -22,11 +22,11 @@ table {
 th, td {
     border: 1px solid black;
     padding: 5px;
+    text-align: left;
+    vertical-align: top;
 }
 
 td {
-    text-align: center;
-    vertical-align: top;
     background-color: lightcyan;
 }
 
